@@ -8,7 +8,7 @@ var serviceAccount = require(__dirname+"/adminsdk.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://explorefirebase-80b58.firebaseio.com"
+  databaseURL: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 });
 
 
@@ -29,7 +29,7 @@ app.get('/',function(req,res){
 app.listen(3000,function(){
     console.log('Server started...')
 })
-var registrationToken = 'eBv1mHiTdwk:APA91bFWFpKJ5FELGbEj_9ZOxpAVTtbTDdD5zysgkFj6obSE4U9ysKpV5PX5HSxc5XO2kCcuhIXjdqUybSpqoaz_0ryvYcWGJn8e-VUqCZneEXDjShQfgFHiwkLQ2HD5Nc-lrhryTNmx';
+var registrationToken = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 
 // See the "Defining the message payload" section below for details
 // Send a message to the device corresponding to the provided
